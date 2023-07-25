@@ -1,0 +1,130 @@
+@media (max-width:991.99px) {
+    .blog__items-list {
+        justify-content: center;
+
+    }
+    .screen__img-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .screen__img-block img {
+        width: 100%;
+    }
+    
+    .main__screen-portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog__items-list {
+        flex-wrap: wrap;
+    }
+    .main__screen-about__block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .screen__about-title {
+        margin: 30px 0;
+    }
+    .screen__play-video {
+        margin: 30px 0;
+    }
+    .screen__about {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:767.99px) {
+    .nav__menu:hover .header__content-list {
+        opacity: 1;
+        transition: .4s;
+        right: 10px;
+    }
+
+    .nav__menu {
+        position: relative;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        background: white;
+        transition: .4s;   
+        border-radius: 5px ;
+        border: 1px solid black;
+    }
+    .nav__menu::before {
+        content: '';
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        left: 0;
+        transform: translate(0 -50%);
+        background: #926FF6;
+    }
+    
+    .nav__menu-btn {
+        position: absolute;
+        top: 75%;
+        left: 0;
+        background: #926FF6; 
+        transform: translate(0 -50%);
+        height: 2px;
+        width: 100%;
+        
+    }
+    
+    .nav__menu::after{
+        content: '';
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0 -50%);
+        background: #926FF6;
+    }
+    .header__content-list {
+        opacity: 0;
+        flex-direction: column;
+        position: absolute;
+        right: 1000px;
+        top: 25px;
+
+    }
+}
+
+@media (max-width:575.99px) {
+    .content__main-title {
+        font-size: 30px;
+    }
+    .blog__items-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .main__screen-items {
+        flex-wrap: wrap;
+    }
+    .screen__about-img img {
+        width: 100%;
+    }
+    .blog__item img {
+        width: 100%;
+
+        
+    }
+    .main__screen-items{
+        gap: 30px;
+    }
+
+}
